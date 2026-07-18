@@ -1,0 +1,90 @@
+body {
+  background-image: url("https://cdn1.epicgames.com/offer/be13f6c4fb11427fbf3313ce93b97cc0/EnterTheGungeon_S2_1200x1600_1200x1600-4d79aae1e860c191c706e4e8bfdef244_1200x1600-125549821fa047f76b5f85f630e8c4fe");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: white;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+.lol {
+  /* Замість opacity використовуємо напівпрозорий чорний RGBA колір */
+  background-color: rgba(0, 0, 0, 0.75); 
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 8px; /* Трохи заокруглимо краї головного блоку */
+}
+
+.lal-title {
+  color: #ff3e3e; /* Робимо заголовок червонуватим, як у грі */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Налаштування сітки для іконок */
+.wiki-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 20px; /* Відступи між картками (вгору-вниз та вліво-вправо) */
+  margin-top: 40px;
+}
+
+/* Стилі для кожної окремої картки */
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; /* Вирівнює картинки по нижньому краю */
+  text-align: center;
+  width: 160px; 
+  height: 140px; 
+  display: flex;
+}
+
+.image img {
+  max-width: 110px;
+  max-height: 90px;
+  object-fit: contain; /* Картинки не будуть розтягуватися чи деформуватися */
+  margin-bottom: 12px;
+}
+
+/* Жовтий колір тексту для підписів */
+.image p {
+  color: #f1c40f; /* Яскравий жовтий колір */
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+  text-shadow: 1px 1px 2px black; /* Додамо легку тінь тексту, щоб читався ще краще */
+}
+
+h2{
+background-color: #F83A53;    
+color: black;    
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
