@@ -1,0 +1,186 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwi7BCP6AqCoYSz14e47xAX9UW9iB9YbObtJdIwyjeCA&s=10");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: white;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+.lol {
+  background-color: rgba(0, 0, 0, 0.75); 
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 8px; /* Трохи заокруглимо краї головного блоку */
+}
+
+.lal-title {
+  color: #ff3e3e; /* Робимо заголовок червонуватим, як у грі */
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Налаштування сітки для іконок */
+.wiki-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px 20px; /* Відступи між картками (вгору-вниз та вліво-вправо) */
+  margin-top: 40px;
+}
+
+/* Стилі для кожної окремої картки */
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end; /* Вирівнює картинки по нижньому краю */
+  text-align: center;
+  width: 160px; 
+  height: 140px; 
+  display: flex;
+}
+
+.image img {
+  max-width: 110px;
+  max-height: 90px;
+  object-fit: contain; /* Картинки не будуть розтягуватися чи деформуватися */
+  margin-bottom: 12px;
+}
+
+/* Жовтий колір тексту для підписів */
+.image p {
+  color: #f1c40f; /* Яскравий жовтий колір */
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+  text-shadow: 1px 1px 2px black; /* Додамо легку тінь тексту, щоб читався ще краще */
+}
+
+h2{
+background-color: #211E1E;    
+color: white;    
+text-align: center;
+}
+
+span{
+color: red;    
+    
+    
+}
+
+h1{
+color: white;    
+text-align: center;    
+    
+}
+
+
+
+.wiki-table {
+  border: 1px solid #111; 
+  max-width: 900px;
+  margin: 20px auto;
+  font-family: sans-serif;
+}
+
+
+.wiki-header {
+  background-color: #222222; 
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid #000;
+}
+
+
+.wiki-row {
+  display: flex;
+  background-color: #050505; 
+}
+
+
+.wiki-cell {
+  flex: 1; 
+  text-align: center;
+  padding: 15px 5px;
+  color: #e50914; 
+  text-decoration: none; 
+  font-weight: 500;
+  font-size: 15px;
+  border-right: 1px solid #222; 
+  transition: background-color 0.2s;
+}
+
+
+.wiki-cell:last-child {
+  border-right: none;
+}
+
+.wiki-cell:hover {
+  background-color: #151515;
+  color: #ff2a35;
+}
+
+.ultrakill-trivia {
+  background-color: #050505; /* Дуже темний фон сторінки */
+  color: #e0e0e0;            /* Основний світло-сірий колір тексту */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;          /* Комфортна відстань між рядками */
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Відступи між абзацами фактів */
+.ultrakill-trivia p {
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+/* --- Класи для стилізації кольорового тексту --- */
+
+/* Червоний колір (для рівнів, ворогів та зброї) */
+.text-red {
+  color: #ff2a35;
+  font-weight: 500;
+}
+
+/* Зелений колір (для механіки +PARRY) */
+.text-green {
+  color: #26d03d;
+}
+
+/* Бірюзовий/блакитний колір (для механіки +RICOSHOT або +PARRY) */
+.text-cyan {
+  color: #00f0ff;
+}
+
+/* Додаткові утиліти для тексту */
+.text-bold {
+  font-weight: bold;
+}
+
+.font-mono {
+  font-family: monospace; /* Для ефекту ігрового інтерфейсу */
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
