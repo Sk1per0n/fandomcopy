@@ -1,0 +1,133 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.wiki-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.page-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.page-subtitle {
+  color: #888;
+  font-size: 13px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.toc-box {
+  background-color: #050505;
+  border: 1px solid #333;
+  display: inline-block;
+  padding: 10px 15px;
+  min-width: 180px;
+  margin-bottom: 30px;
+}
+
+.toc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.toc-toggle {
+  color: #ff2a35;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.toc-list {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.toc-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.toc-list a:hover {
+  text-decoration: underline;
+}
+
+
+.section-title {
+  font-size: 24px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.info-text p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ddd;
+  margin-bottom: 12px;
+}
+
+
+.category-header {
+  background-color: #111111;
+  color: #ff2a35; 
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+
+.weapon-list {
+  list-style-type: disc;
+  padding-left: 25px;
+  margin: 0 0 15px 0;
+}
+
+.weapon-list li {
+  color: #ff2a35; 
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+
+.tag-blue {
+  color: #00f0ff;
+  font-weight: bold;
+}
+
+.tag-green {
+  color: #00ff22;
+  font-weight: bold;
+}
+
+.tag-red {
+  color: #ff2a35;
+  font-weight: bold;
+}
+
+.tag-yellow {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.tag-pink {
+  color: #ff007f;
+  font-weight: bold;
+}
