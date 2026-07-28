@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <body>
+
+      <head>
+        <meta charset="UTF-8">
+        <title>
+          Вікі Minecraft
+        </title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+    
+    <header>
+        <a class="a" href="index.html"> Fand<span class="span">o</span>mCopy </a>
+    </header>
+    
+    <main>
+        <div class="div">
+        <img class="img" src="Site-logo.webp"/>
+        <p>Вікі про майнкрафт</p>
+        </div>
+        <div class="mainm">
+            <h1> Дім </h1>
+            <div class="minewiki">
+                <img src="Minecraft_Wiki_header.webp"/>
+                <h1>Ласкаво просимо до джерела інформації про франшизу Minecraft .</h1>
+            </div>
+        </div>
+    </main>
+    
+    </body>
+</html>
