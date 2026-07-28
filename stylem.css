@@ -1,0 +1,38 @@
+body{
+    
+}
+
+.a{
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+    margin-bottom: 250px;
+}
+
+.span{
+    color: orange;
+}
+
+main{
+    margin-top: 100px;
+}
+
+.div{
+    display: flex;
+}
+
+.img{
+    width: 100px;
+    margin-left: 40px;
+}
+
+.mainm{
+    background-color: #E6F0F5;
+}
+
+.minewiki{
+    background-color: white;
+    width: 1500px;
+    margin-left: 20px;
+    text-align: center;
+}
