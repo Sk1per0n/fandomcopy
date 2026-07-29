@@ -1,1 +1,156 @@
 
+body {
+    background: url('https://limbuscompany.wiki.gg/images/Main_BG.png?31d33c') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.swa {
+    width: 40%;
+    height: auto;
+    border-radius: 15%;
+    padding: 20px;
+}
+
+.fandom-header {
+    background-color: #474545;
+    padding: 10px 20px;
+    font-size: 0.85em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.fandom-logo {
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.fandom-logo span {
+    color: #eb8407;
+}
+
+.wiki {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    background: #c75b57;
+    background: radial-gradient(circle, rgba(199, 91, 87, 1) 74%, rgba(107, 2, 2, 1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+color: black;
+    
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+
+.content {
+    background: rgba(15, 15, 15, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    border: 1px solid #333;
+}
+
+.quote-box {
+    border-left: 4px solid #eb8407;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.quote-es {
+    color: #ffeb3b;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.quote-en {
+    color: #ccc;
+    font-style: italic;
+    margin: 5px 0 0 0;
+}
+
+.intro {
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.info-table th, .info-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+.info-table th {
+    background: #2a2a2a;
+    color: #eb8407;
+    width: 35%;
+}
+
+.toc {
+    border: 1px solid #c75b57;
+    background: #111;
+    padding: 15px 20px;
+    width: 220px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.toc ul {
+    padding-left: 20px;
+    margin: 8px 0 0 0;
+}
+
+.toc a {
+    color: #eb8407;
+    text-decoration: none;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
+
+
+h2 {
+    color: #eb8407;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.6;
+    color: #ddd;
+}
