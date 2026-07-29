@@ -1,0 +1,135 @@
+body{
+background: url('https://limbuscompany.wiki.gg/images/Main_BG.png?31d33c') no-repeat center center fixed;
+background-size: cover;
+}
+img{
+width: 20%;    
+height: 20%;    
+    
+    
+}
+.swa {
+ width: 40%; 
+height: 20%;    
+border-radius: 15%;  
+padding: 20px;    
+
+    
+}
+.fandom-header {
+    background-color: #474545;
+    padding: 10px 20px;
+    font-size: 0.85em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+border-radius:10px ;
+  
+}
+
+.fandom-logo {
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+    
+}
+
+.fandom-logo span { 
+    color: #eb8407; 
+}
+.game-desc{
+color: white;  
+background: black;
+opacity: 0.7;
+padding: 15px;   
+border-radius: 7px;   
+ border: 5px solid #780e0e;      
+margin-bottom: 20px;        
+      
+    
+}
+.wiki{
+margin: 0;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);    
+background: #c75b57;
+background: radial-gradient(circle, rgba(199, 91, 87, 1) 74%, rgba(107, 2, 2, 1) 100%);
+padding: 20px;
+border-radius: 10px;   
+ border: 5px solid black;   
+}
+.hero-section{
+display: flex;
+  align-items: center;        
+  justify-content: flex-start; 
+  gap: 30px;                 
+  max-width: 1200px;
+  margin: 40px auto;       
+  padding: 0 20px;    
+}
+.sinner{
+color: white;  
+background: black;
+opacity: 0.7;
+padding: 15px;   
+border-radius: 7px;   
+ border: 5px solid #780e0e;      
+margin-bottom: 20px;        
+  
+}
+.srcw{
+ display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 15px;                            
+  width: 90%;                          
+  margin: 0 auto; 
+}
+.srcw img{
+   width: 100%;
+  height: auto;
+  display: block;  
+}
+.srcw img:hover {
+  transform: scale(1.15); 
+  z-index: 10;           
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
