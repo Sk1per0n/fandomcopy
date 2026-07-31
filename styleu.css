@@ -18,31 +18,30 @@ h3 {
   max-width: 1000px;
   margin: 40px auto;
   padding: 30px;
-  border-radius: 8px; /* Трохи заокруглимо краї головного блоку */
+  border-radius: 8px; 
 }
 
 .lal-title {
-  color: #ff3e3e; /* Робимо заголовок червонуватим, як у грі */
+  color: #ff3e3e; 
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Налаштування сітки для іконок */
 .wiki-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px 20px; /* Відступи між картками (вгору-вниз та вліво-вправо) */
+  gap: 30px 20px; 
   margin-top: 40px;
 }
 
-/* Стилі для кожної окремої картки */
+
 .image {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end; /* Вирівнює картинки по нижньому краю */
+  justify-content: flex-end; 
   text-align: center;
   width: 160px; 
   height: 140px; 
@@ -52,17 +51,17 @@ h3 {
 .image img {
   max-width: 110px;
   max-height: 90px;
-  object-fit: contain; /* Картинки не будуть розтягуватися чи деформуватися */
+  object-fit: contain; 
   margin-bottom: 12px;
 }
 
-/* Жовтий колір тексту для підписів */
+
 .image p {
-  color: #f1c40f; /* Яскравий жовтий колір */
+  color: #f1c40f; 
   font-weight: bold;
   font-size: 15px;
   margin: 0;
-  text-shadow: 1px 1px 2px black; /* Додамо легку тінь тексту, щоб читався ще краще */
+  text-shadow: 1px 1px 2px black; 
 }
 
 h2{
@@ -133,51 +132,64 @@ text-align: center;
 }
 
 .ultrakill-trivia {
-  background-color: #050505; /* Дуже темний фон сторінки */
-  color: #e0e0e0;            /* Основний світло-сірий колір тексту */
+  background-color: #050505; 
+  color: #e0e0e0;            
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
-  line-height: 1.6;          /* Комфортна відстань між рядками */
+  line-height: 1.6;          
   padding: 20px;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* Відступи між абзацами фактів */
+
 .ultrakill-trivia p {
   margin-bottom: 24px;
   margin-top: 0;
 }
 
-/* --- Класи для стилізації кольорового тексту --- */
 
-/* Червоний колір (для рівнів, ворогів та зброї) */
+
 .text-red {
   color: #ff2a35;
   font-weight: 500;
 }
 
-/* Зелений колір (для механіки +PARRY) */
+
 .text-green {
   color: #26d03d;
 }
 
-/* Бірюзовий/блакитний колір (для механіки +RICOSHOT або +PARRY) */
+
 .text-cyan {
   color: #00f0ff;
 }
 
-/* Додаткові утиліти для тексту */
+
 .text-bold {
   font-weight: bold;
 }
 
 .font-mono {
-  font-family: monospace; /* Для ефекту ігрового інтерфейсу */
+  font-family: monospace; 
   font-size: 16px;
 }
 
+.fandom-logo {
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+    padding: 20px;
+background-color: gray ;
+color: purple;
+    
+}
 
+.fandom-logo span { 
+    color: #eb8407; 
+}
 
 
 
