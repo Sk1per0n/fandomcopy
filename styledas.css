@@ -1,0 +1,230 @@
+body {
+    background: url('https://limbuscompany.wiki.gg/images/Main_BG.png?31d33c') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.fandom-logo {
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+}
+
+.fandom-logo span { 
+    color: #eb8407; 
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.95);
+    border-right: 3px solid #780e0e;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.8);
+    transform: translateX(-220px); 
+    transition: transform 0.4s ease-in-out;
+    z-index: 1000;
+}
+.sidebar:hover {
+    transform: translateX(0);
+}
+
+
+.sidebar-trigger {
+    position: absolute;
+    right: -40px;
+    top: 20px;
+    background: #780e0e;
+    color: white;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+
+.sidebar-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 3px solid #780e0e;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.sidebar-nav a:hover {
+    background: #780e0e;
+    padding-left: 20px;
+}
+
+.swa {
+    width: 120px;
+    height: auto;
+    border-radius: 15%;
+    display: block;
+    transition: transform 0.2s;
+}
+
+.swa:hover {
+    transform: scale(1.05);
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto 20px auto;
+    padding: 0 20px;
+}
+
+.wiki {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    background: radial-gradient(circle, rgba(199, 91, 87, 1) 74%, rgba(107, 2, 2, 1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid black;
+}
+
+.content {
+    background: rgba(15, 15, 15, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 850px;
+    margin: 20px auto 50px auto;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.quote-box {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #eb8407;
+    margin-bottom: 25px;
+}
+
+.quote-es {
+    font-style: italic;
+    font-size: 1.3rem;
+    color: #eb8407;
+    margin: 0 0 5px 0;
+}
+
+.quote-en {
+    color: #ccc;
+    margin: 0 0 15px 0;
+}
+
+.character-art {
+    width: 60%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.info-table th, .info-table td {
+    padding: 12px 15px;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+.info-table th {
+    background: #780e0e;
+    color: #fff;
+    width: 35%;
+}
+
+
+.toc {
+    background: rgba(30, 30, 30, 0.8);
+    padding: 15px 20px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    margin-bottom: 30px;
+}
+
+.toc strong {
+    font-size: 1.1rem;
+    color: #eb8407;
+}
+
+.toc ul {
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+}
+
+.toc li {
+    margin-bottom: 5px;
+}
+
+.toc a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.toc a:hover {
+    color: #eb8407;
+    text-decoration: underline;
+}
+
+/* Секції */
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    color: #eb8407;
+    border-bottom: 2px solid #780e0e;
+    padding-bottom: 5px;
+}
+
+section p {
+    line-height: 1.6;
+    color: #ddd;
+}
