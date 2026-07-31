@@ -1,0 +1,161 @@
+body {
+  background-color: #000000;
+  color: #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.wiki-layout {
+  display: flex;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.page-title {
+  font-size: 32px;
+  font-family: monospace;
+  margin: 0 0 5px 0;
+}
+
+.disambiguation {
+  font-size: 13px;
+  font-style: italic;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.disambiguation a, .link-red {
+  color: #ff2a35;
+  text-decoration: none;
+}
+
+.disambiguation a:hover, .link-red:hover {
+  text-decoration: underline;
+}
+
+.section-title {
+  font-size: 22px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 5px;
+  margin-top: 25px;
+}
+
+.subsection-title {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.terminal-quote {
+  background-color: #080808;
+  border-left: 3px solid #ff2a35;
+  margin: 15px 0;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.terminal-quote p {
+  margin: 4px 0;
+}
+
+.toc-box {
+  background-color: #050505;
+  border: 1px solid #222;
+  display: inline-block;
+  padding: 10px 15px;
+  min-width: 180px;
+  margin: 15px 0;
+}
+
+.toc-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.toc-toggle {
+  color: #ff2a35;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.toc-list {
+  margin: 8px 0 0 0;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.toc-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.infobox {
+  width: 300px;
+  background-color: #0a0a0a;
+  border: 1px solid #333;
+  font-size: 13px;
+  align-self: flex-start;
+}
+
+.infobox-title {
+  background-color: #eee;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.infobox-image {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #222;
+}
+
+.infobox-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.infobox-caption {
+  font-style: italic;
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.infobox-header {
+  background-color: #151515;
+  text-align: center;
+  font-weight: bold;
+  padding: 6px;
+  border-top: 1px solid #222;
+  border-bottom: 1px solid #222;
+}
+
+.infobox-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.infobox-table th, .infobox-table td {
+  padding: 8px;
+  border-bottom: 1px solid #1a1a1a;
+  text-align: left;
+  vertical-align: top;
+}
+
+.infobox-table th {
+  color: #aaa;
+  width: 40%;
+  font-weight: normal;
+}
