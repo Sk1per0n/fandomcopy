@@ -30,6 +30,14 @@ main{
     background-color: #E6F0F5;
 }
 
+.minem{
+    text-decoration:none;
+}
+
+.h1{
+    margin-left: 25px;
+}
+
 .minewiki{
     background-color: white;
     width: 97%;
@@ -44,7 +52,7 @@ main{
     text-align: center;
 }
 
-.h1{
+.h11{
     color: #E6F0F5;
 }
 
