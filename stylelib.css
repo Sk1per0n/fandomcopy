@@ -1,0 +1,214 @@
+body {
+    background: url('https://shared.akamai.steamstatic.com/community_assets/images/items/1256670/6ba85d55f76c7e9324d0589d8b11277f7d4bd0e1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #f7e7ce; 
+}
+
+
+.fandom-logo {
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.fandom-logo span { 
+  color: #eb8407; 
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    background: rgba(12, 11, 10, 0.96);
+    border-right: 3px solid #f5c978;
+    box-shadow: 5px 0 15px rgba(245, 201, 120, 0.15);
+    transform: translateX(-220px); 
+    transition: transform 0.4s ease-in-out;
+    z-index: 1000;
+}
+
+.sidebar:hover {
+    transform: translateX(0);
+}
+
+.sidebar-trigger {
+    position: absolute;
+    right: -40px;
+    top: 20px;
+    background: #f5c978; 
+    color: #121110;
+    padding: 10px 5px;
+    font-weight: 900;
+    font-size: 13px;
+    writing-mode: vertical-rl;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(245, 201, 120, 0.4);
+}
+
+.sidebar-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.sidebar-nav a {
+    color: #f7e7ce;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgba(245, 201, 120, 0.06);
+    border-left: 3px solid #a6844c;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.sidebar-nav a:hover {
+    background: #f5c978;
+    color: #121110;
+    border-left-color: #ffffff;
+    padding-left: 20px;
+    box-shadow: 0 0 10px rgba(245, 201, 120, 0.3);
+}
+
+
+.swa {
+    width: 110px;
+    height: auto;
+    border-radius: 12%;
+    display: block;
+    transition: transform 0.2s;
+}
+
+.swa:hover {
+    transform: scale(1.05);
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto 20px auto;
+    padding: 0 20px;
+}
+
+.wiki {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #f5c978;
+    text-shadow: 0 0 12px rgba(245, 201, 120, 0.3);
+    background: linear-gradient(180deg, #241f1a 0%, #0d0c0a 100%);
+    padding: 18px 30px;
+    border-radius: 10px;
+    border: 3px solid #f5c978;
+    text-align: center;
+}
+
+.content {
+    background: rgba(14, 13, 12, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto 50px auto;
+    border: 1px solid #4a3e2c;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.9);
+}
+
+
+.quote-box {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #f5c978;
+    margin-bottom: 25px;
+}
+
+.quote-es {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #f5c978;
+    margin: 0 0 5px 0;
+}
+
+.quote-en {
+    color: #d1c2a5;
+    margin: 0;
+}
+
+.intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    color: #f7e7ce;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+
+.info-table th, .info-table td {
+    padding: 12px 15px;
+    border: 1px solid #3d3324;
+    text-align: left;
+}
+
+.info-table th {
+    background: #241f1a;
+    color: #f5c978;
+    border-right: 2px solid #f5c978;
+    width: 35%;
+}
+
+.info-table td {
+    color: #e6d7bc;
+}
+
+
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    color: #f5c978;
+    border-bottom: 2px solid #f5c978;
+    padding-bottom: 5px;
+}
+
+section p, section ul {
+    line-height: 1.6;
+    color: #e6d7bc;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+section li {
+    margin-bottom: 8px;
+}
