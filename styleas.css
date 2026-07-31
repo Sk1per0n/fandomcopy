@@ -1,135 +1,150 @@
-body{
-background: url('https://limbuscompany.wiki.gg/images/Main_BG.png?31d33c') no-repeat center center fixed;
-background-size: cover;
+body {
+    background: url('https://limbuscompany.wiki.gg/images/Main_BG.png?31d33c') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
 }
-img{
-width: 20%;    
-height: 20%;    z
-    
-    
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    background: rgba(10, 10, 10, 0.95);
+    border-right: 3px solid #780e0e;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.8);  
+    transform: translateX(-220px);        
+    transition: transform 0.4s ease-in-out;
+    z-index: 1000;
+}
+.sidebar:hover {
+    transform: translateX(0);
+}
+.sidebar-trigger {
+    position: absolute;
+    right: -40px;
+    top: 20px;
+    background: #780e0e;
+    color: white;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 12px;
+    writing-mode: vertical-rl;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.sidebar-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 3px solid #780e0e;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.sidebar-nav a:hover {
+    background: #780e0e;
+    padding-left: 20px;
+}
+img {
+    width: 20%;    
+    height: 20%;    
 }
 .swa {
- width: 40%; 
-height: 20%;    
-border-radius: 15%;  
-padding: 20px;    
-
-    
+    width: 100px; 
+    height: auto; 
+    border-radius: 15%;  
+    padding: 0;    
 }
-.fandom-header {
-    background-color: #474545;
-    padding: 10px 20px;
-    font-size: 0.85em;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-border-radius:10px ;
-  
-}
-
 .fandom-logo {
     font-weight: 900;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-
-    
+    font-size: 1.2rem;
 }
-
 .fandom-logo span { 
     color: #eb8407; 
 }
-.game-desc{
-color: white;  
-background: black;
-opacity: 0.7;
-padding: 15px;   
-border-radius: 7px;   
- border: 5px solid #780e0e;      
-margin-bottom: 20px;        
-      
-    
+.game-desc {
+    color: white;  
+    background: black;
+    opacity: 0.7;
+    padding: 15px;   
+    border-radius: 7px;   
+    border: 5px solid #780e0e;    
+    margin-bottom: 20px;        
 }
-.wiki{
-margin: 0;
-  font-size: 2.5rem;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);    
-background: #c75b57;
-background: radial-gradient(circle, rgba(199, 91, 87, 1) 74%, rgba(107, 2, 2, 1) 100%);
-padding: 20px;
-border-radius: 10px;   
- border: 5px solid black;   
+.wiki {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);    
+    background: radial-gradient(circle, rgba(199, 91, 87, 1) 74%, rgba(107, 2, 2, 1) 100%);
+    padding: 20px;
+    border-radius: 10px;   
+    border: 5px solid black;   
 }
-.hero-section{
-display: flex;
-  align-items: center;        
-  justify-content: flex-start; 
-  gap: 30px;                 
-  max-width: 1200px;
-  margin: 40px auto;       
-  padding: 0 20px;    
+.hero-section {
+    display: flex;
+    align-items: center;        
+    justify-content: center; 
+    max-width: 1200px;
+    margin: 40px auto 20px auto;        
+    padding: 0 20px;    
 }
-.sinner{
-color: white;  
-background: black;
-opacity: 0.7;
-padding: 15px;   
-border-radius: 7px;   
- border: 5px solid #780e0e;      
-margin-bottom: 20px;        
-  
+.sinner {
+    color: white;  
+    background: black;
+    opacity: 0.7;
+    padding: 15px;   
+    border-radius: 7px;   
+    border: 5px solid #780e0e;    
+    margin-bottom: 20px;        
 }
-.srcw{
- display: grid;
-  grid-template-columns: repeat(6, 1fr); 
-  gap: 15px;                            
-  width: 90%;                          
-  margin: 0 auto; 
+
+.srcw {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 15px;                         
+    width: 90%;                          
+    margin: 0 auto; 
 }
-.srcw img{
-   width: 170px;
-  height: auto;
-  display: block;  
+
+.srcw img {
+    width: 170px;
+    height: auto;
+    display: block;  
+    transition: transform 0.2s;
 }
+
 .srcw img:hover {
-  transform: scale(1.15); 
-  z-index: 10;           
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    transform: scale(1.15); 
+    z-index: 10;            
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.content {
+    background: rgba(15, 15, 15, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    border: 1px solid #333;    
+}
