@@ -14,56 +14,59 @@ h3 {
 }
 
 .lol {
-  /* Замість opacity використовуємо напівпрозорий чорний RGBA колір */
   background-color: rgba(0, 0, 0, 0.75); 
-  max-width: 1000px;
+  max-width: 90%;
   margin: 40px auto;
   padding: 30px;
-  border-radius: 8px; /* Трохи заокруглимо краї головного блоку */
+  border-radius: 8px; 
 }
 
 .lal-title {
-  color: #ff3e3e; /* Робимо заголовок червонуватим, як у грі */
+  color: #ff3e3e; 
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Налаштування сітки для іконок */
+.lel{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
 .wiki-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px 20px; /* Відступи між картками (вгору-вниз та вліво-вправо) */
+  gap: 30px 20px;
   margin-top: 40px;
 }
 
-/* Стилі для кожної окремої картки */
+
 .image {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end; /* Вирівнює картинки по нижньому краю */
+  justify-content: flex-end; 
   text-align: center;
   width: 160px; 
   height: 140px; 
-  display: flex;
 }
 
 .image img {
   max-width: 110px;
   max-height: 90px;
-  object-fit: contain; /* Картинки не будуть розтягуватися чи деформуватися */
+  object-fit: contain; 
   margin-bottom: 12px;
 }
 
-/* Жовтий колір тексту для підписів */
+
 .image p {
-  color: #f1c40f; /* Яскравий жовтий колір */
+  color: #f1c40f;
   font-weight: bold;
   font-size: 15px;
   margin: 0;
-  text-shadow: 1px 1px 2px black; /* Додамо легку тінь тексту, щоб читався ще краще */
+  text-shadow: 1px 1px 2px black;
 }
 
 h2{
