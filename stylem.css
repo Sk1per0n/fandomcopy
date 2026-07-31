@@ -36,3 +36,47 @@ main{
     margin-left: 20px;
     text-align: center;
 }
+
+.minewiki1{
+    background-color: white;
+    width: 97%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.h1{
+    color: #E6F0F5;
+}
+
+.h31 {
+    position: relative;
+    padding-top: 10px;
+}
+
+.h31::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px; 
+    border-top: 2px solid black;
+}
+
+.h32 {
+    position: relative;
+    padding-top: 10px;
+    width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.h32::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px; 
+    border-top: 2px solid black;
+}
