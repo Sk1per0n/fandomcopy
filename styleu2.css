@@ -159,3 +159,19 @@ body {
   width: 40%;
   font-weight: normal;
 }
+
+.fandom-logo {
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+    padding: 20px;
+background-color: gray ;
+color: purple;
+    
+}
+
+.fandom-logo span { 
+    color: #eb8407; 
+}
